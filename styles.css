@@ -1,0 +1,154 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+h1:hover{
+  color: crimson;
+}
+
+h3{
+  background-color: black;
+  color: white;
+}
+
+h3:hover{
+  color: gold;
+}
+
+#div1 {
+  padding: 1%;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+#div1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+  background-color: black;
+}
+  
+#div1 li {
+  display: inline;
+}
+
+#div1 li :hover {
+  color: gold;
+}
+  
+#div1 li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+  
+
+#div2 p{
+  text-align: center;
+}
+
+#div2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+#div3 ul {
+  list-style-type:square;
+}
+
+#div3 a{
+  color: black;
+}
+
+#div3 a:hover{
+  color: grey;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+  
+table {
+  table-layout: auto;
+  width: 100%;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=tel], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:crimson;
+}
+
+.footer {
+  padding: 1%;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.footer:hover{
+  color:crimson;
+}
